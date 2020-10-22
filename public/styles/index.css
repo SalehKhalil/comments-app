@@ -1,0 +1,86 @@
+.main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.register-comment {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0 0 30px;
+}
+
+.register-comment > h3 {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.register-comment > textarea {
+  resize: none;
+  border: 2px solid #979797;
+  box-sizing: border-box;
+  width: 75%;
+  height: 30%;
+}
+
+.register-comment > button {
+  margin-top: 10px;
+  width: 75%;
+  display: flex;
+  justify-content: center;
+}
+
+.vertical-row {
+  background-color: #adadad;
+  width: 3px;
+  height: 90%;
+  margin: 2% 0;
+}
+
+.horizontal-row {
+  background-color: #adadad;
+  width: 90%;
+  height: 3px;
+  margin: 0 2%;
+  display: none;
+}
+
+.list-comments {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0 0 10%;
+}
+
+.list-comments > ul {
+  margin-top: 30px;
+  list-style: none;
+  max-height: 90%;
+  max-width: 90%;
+  overflow: hidden;
+  color: #7a7a7a;
+}
+
+.list-comments > ul.scroll {
+  overflow-y: auto;
+}
+
+.list-comments > ul > li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 90%;
+  padding: 20px 0;
+}
+
+.list-comments > ul > li > p {
+  color: #7a7a7a;
+  line-height: 30px;
+  margin-right: 40px;
+}
+
+.list-comments > ul > li > button {
+  display: flex;
+  justify-content: center;
+}

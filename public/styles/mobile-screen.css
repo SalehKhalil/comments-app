@@ -1,0 +1,39 @@
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-comment {
+  margin: 30px 0;
+  min-width: 100%;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.register-comment > textarea {
+  height: 150px;
+}
+
+.vertical-row {
+  display: none;
+}
+
+.horizontal-row {
+  background-color: #adadad;
+  width: 90%;
+  height: 3px;
+  margin: 0 auto;
+  display: inline-table;
+}
+
+.list-comments {
+  margin-top: 30px;
+  min-width: 100%;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
